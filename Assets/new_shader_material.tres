@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://de3tjqafh5ajw"]
+
+[ext_resource type="Shader" path="res://Scripts/occluder.gdshader" id="1_m3mpm"]
+[ext_resource type="Texture2D" uid="uid://cimdqlcgim3iy" path="res://Assets/PNG/Background.png" id="2_cj48r"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_m3mpm")
+shader_parameter/viewport_texture = ExtResource("2_cj48r")
